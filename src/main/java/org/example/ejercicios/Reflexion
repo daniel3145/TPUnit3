@@ -1,0 +1,17 @@
+Trabajo realizado por Daniel Mesa Patiño 
+En los dos ejercicios se hizo cambio de idioma tanto en el de facturacion como en el elegido de calculo del perimetro de un rectangulo
+A continuacion hare un breve explicacion de lo que se le hizo a ambos metodos.
+Billing4
+En esta clase de facturacion se hizo cambio de diferentes variables y metodos al idioma ingles en su totalidad, los metodos se hicieron mas eficientes
+convirtiendo el record en una lista la cual puede agregarsele mucho valores sin necesidad de tener que colocarle un tamaño definido asi que puede agregarsele mas clientes.
+Tambien se le hicieron cambio en el for para poder recorrer las listas y mostrar su contendido sin necesidad de usar varios imprimir todo se hace en dos for anidados los cuales
+recorren la lista de factura como la lista de precios que es mas interna de esta manera podemos recorrerla y mostrar cada cliente con el total
+
+CalculatePerimeterRectangle
+En esta clase de calculo del perimetro de un triangulo se realizo un cambio en el almacenamientod del record se organizo como una lista para poder agregar varios valores
+de esta manera garantizar que puedan agregarse mas rectangulo en el futuro, tambien solo se pide dos lados como lo son el ancho y el lado dado que como son iguales en un rectangulo
+no es necesario pedir los 4 lados se hizo un cambio en la formula para calcular el perimetro donde los valores obtenidos se multiplican por dos para lograr tener el valor total de estos
+y al final se suman ambos y nos da el valor del perimetro total.
+
+En los cambios hechos a ambos codigos fueron en gran medida para lograr un mayor facilidad de entender el codigo hacerlo reutilizable a la hora de recorrer la lista y no tener que
+hacer calculos o funciones innecesarias a lo largo del codigo.
